@@ -1,13 +1,129 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.showActivity {
+  border-color: black;
+  border-left: 100px;
+  border: 10px solid rgb(11, 11, 11);
+}
+
+.displayEachActivity {
+  border: 3px solid rgb(11, 11, 11);
+}
+
+.letters {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border-color: black;
+  border: 3px solid rgb(11, 11, 11);
+}
+
+.navbar {
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.buttonNav {
+  /* padding-left: 10px; */
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.conected {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.activities {
+  text-align: center;
+  border: 3px solid rgb(11, 11, 11);
+  width: 500px;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+
+  justify-content: center;
+}
+
+.divGlobalActivities {
+  /* justify-content: center;
+  flex-direction: row;
+  float: inline-end; */
+  padding-top: 100px;
+  padding-bottom: 10px;
+  padding-left: 630px;
+  margin-bottom: 100px;
+}
+
+/* .borderActivities {
+  border: 2px solid rgb(11, 11, 11);
+} */
+
+.spamUnfollow {
+  border: 3px solid rgb(11, 11, 11);
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+  padding-right: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+}
+
+.activitiesFeedPage {
+  text-align: center;
+  border: 3px solid rgb(11, 11, 11);
+  width: 500px;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+
+  justify-content: center;
+}
+
+.notificationBox {
+  text-align: center;
+  border: 3px solid rgb(11, 11, 11);
+  width: 800px;
+  height: fit-content;
+}
+
+.spaceNotificationBox {
+  padding-top: 20px;
+  padding-left: 400px;
+}
+
+.backgroundPicture {
+  border: 3px solid rgb(11, 11, 11);
+  text-align: center;
+  width: 600px;
+  height: 600px;
+}
+
+.logoStream {
+  margin-top: 20px;
+  border: 3px solid rgb(11, 11, 11);
+}
+
+.outoftheBoxLogin {
+  margin-left: 300px;
+}
+
+.buttonActivitySpace {
+  margin-inline: 5px;
 }
