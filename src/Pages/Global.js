@@ -52,7 +52,7 @@ export default function Global({ props, connectUser }) {
   async function getUrl(event) {
     const files = event.target.files;
     const response = await client.images.upload(files[0]);
-    console.log(response);
+    // console.log(response);
     setURL(response.file);
   }
 

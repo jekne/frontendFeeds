@@ -103,7 +103,7 @@ export default function Timeline({ connectUser }) {
         const notification = client.feed("notification", userID, token);
         // const notificationFeed = await notification.get();
         // console.log("notification FROM APPJS", notificationFeed);
-        const notificationFeed = await notification.get();
+        const notificationFeed = await notification.get({ mark_seen: false });
         console.log("notification", notificationFeed?.results[0]?.activities);
         setNotification(notificationFeed?.results[0]?.activities);
       }
